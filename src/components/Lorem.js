@@ -6,7 +6,7 @@ import { sizing } from '@material-ui/system';
 
 export const Lorem = () => {
     return (
-        <Container maxWidth="sm">
+        <Container maxWidth="lg">
         
                 <Box
                     p={0}
