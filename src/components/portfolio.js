@@ -18,8 +18,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
   },
   gridList: {
-    width: 1100,
-    height: 450,
+    width: "100%",
+    height: 950,
   },
   icon: {
     color: 'rgba(255, 255, 255, 0.54)',
@@ -34,7 +34,7 @@ export default function Portfolio() {
     <div className={classes.root}>
       <GridList cols={3}  cellHeight={300} className={classes.gridList}>
         <GridListTile key="Subheader" cols={3} style={{ height: 'auto' }}>
-          <ListSubheader component="div">December</ListSubheader>
+          <ListSubheader component="div">PORTFOLIO</ListSubheader>
         </GridListTile >
         {tileData.map((tile) => (
           <GridListTile style={{ marginBottom: "18px" }} key={tile.img}>

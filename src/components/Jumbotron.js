@@ -1,35 +1,40 @@
 import React from 'react'
-import Box from '@material-ui/core/Box';
+// import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+
 
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        flexGrow: 1,
+        display: 'flex',
+        flexWrap: 'wrap',
+        '& > *': {
+            margin: theme.spacing(1),
+            width: "100%",
+            height: "250px",
+        },
     },
-    menuButton: {
-        marginRight: theme.spacing(2),
-    },
-    title: {
-        flexGrow: 1,
-    },
-    backgroundColor: {backgroundColor: "grey"},
-    bg: {
-        backgroundImage: 'url("../../public/assets/images/hero2.jpg")'
-    }
 }));
 
 
 
+
 export const Jumbotron = () => {
-    const classes= useStyles()
+    const classes = useStyles()
     return (
-        <div>’
-            <Box align="center" component="span" m={1} className={classes.bg}>
-                <h1 id="hero-h1" class="display-4">ALEJANDRO GONZALEZ</h1>
-                <p id="hero-txt" class="lead">Developer of the web, photography, and xerophytes.</p>
-            </Box>
+        <div className={classes.root}>
+            <Paper align="center" component="span" m={1} style={{ backgroundImage: 'url("assets/images/hero2.jpg")', backgroundSize: "cover" }}>
+                <Typography style={{color: "white"}} variant="h1" component="h2" gutterBottom>
+                    <div className="darken-overlay"> 
+                    ALEJANDRO GONZALEZ
+                    </div>
+      </Typography>
+                <Typography variant="h4" gutterBottom>
+                    Developer of the web, photography, and xerophytes.
+      </Typography>
+            </Paper>
         </div>
     )
 }

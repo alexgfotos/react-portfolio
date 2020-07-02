@@ -7,9 +7,9 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
+// import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
-import MenuList from '@material-ui/core/MenuList';
+// import MenuList from '@material-ui/core/MenuList';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -53,10 +53,10 @@ function Header() {
                             keepMounted
                             open={Boolean(anchorEl)}
                             onClose={handleClose}>
-                            <Button onClick={handleClose} color="inherit">Home</Button>
-                            <Button onClick={handleClose} color="inherit">Portfolio</Button>
-                            <Button onClick={handleClose} color="inherit">Resume</Button>
-                            <Button onClick={handleClose} color="inherit"><Link href="www.google.com">Contact Me</Link></Button>
+                            <Button onClick={handleClose} color="inherit"><Link href="/">Home</Link></Button>
+                            <Button onClick={handleClose} color="inherit"><Link href="/portfolio">Portfolio</Link></Button>
+                            <Button onClick={handleClose} color="inherit"><Link href="/resume">Resume</Link></Button>
+                            <Button onClick={handleClose} color="inherit"><Link href="/contact">Contact Me</Link></Button>
                         </Menu>
 
                     </IconButton>
