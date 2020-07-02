@@ -7,10 +7,10 @@
     },
     {
         "img": "/assets/images/borgerhut.png",
-        "title": "MadGifz",
-        "description": "A modern take on a classic game.",
-        "link":"https://alexgfotos.github.io/MadGifz/",
-        "github":"https://github.com/alexgfotos/MadGifz"
+        "title": "Borger Hut",
+        "description": "Online Burger Maker & Eater using Node Express & Handlebars.",
+        "link":"https://github.com/alexgfotos/burger",
+        "github":"https://rocky-thicket-38681.herokuapp.com/"
     },
     {
         "img": "/assets/images/squaddle.png",

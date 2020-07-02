@@ -9,6 +9,7 @@ import Jumbotron from '../src/components/Jumbotron'
 import Portfolio from './components/portfolio'
 import Contact from './components/Contact'
 import Container from '@material-ui/core/Container';
+import Resume from './components/resume';
 
 
 
@@ -21,7 +22,8 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/resume" component={Resume} />
+        <Route exact path="/contact" component={Contact} />
       </Router>
     </Container>
     </>

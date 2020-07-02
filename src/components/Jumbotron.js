@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
         '& > *': {
             margin: theme.spacing(1),
             width: "100%",
-            height: "250px",
+            height: "300px",
         },
     },
 }));
@@ -26,14 +26,16 @@ export const Jumbotron = () => {
     return (
         <div className={classes.root}>
             <Paper align="center" component="span" m={1} style={{ backgroundImage: 'url("assets/images/hero2.jpg")', backgroundSize: "cover" }}>
-                <Typography style={{color: "white"}} variant="h1" component="h2" gutterBottom>
-                    <div className="darken-overlay"> 
-                    ALEJANDRO GONZALEZ
-                    </div>
-      </Typography>
-                <Typography variant="h4" gutterBottom>
-                    Developer of the web, photography, and xerophytes.
-      </Typography>
+            <div className="darken-overlay"> 
+                <Typography style={{ color: "white" }} variant="h1"  gutterBottom>
+                    
+                        ALEJANDRO GONZALEZ
+                
+                </Typography>
+                <Typography style={{ color: "white" }} variant="h4" gutterBottom>
+                        Developer of the web, photography, and xerophytes.
+                </Typography>
+                </div>
             </Paper>
         </div>
     )

@@ -41,9 +41,9 @@ function Header() {
         <div className={classes.root}>
             <AppBar className={classes.backgroungColor} position="static">
                 <Toolbar className={classes.backgroungColor}>
-
-                    <Typography className={classes.root}>
-                        Alejandro Gonzalez
+                    <img alt="cactus icon" style={{ height: "40px" }} src="assets/images/navcactus.png"></img>
+                    <Typography className={classes.root} variant="h4">
+                        A.G.
                     </Typography>
                     <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
                         <MenuIcon />
