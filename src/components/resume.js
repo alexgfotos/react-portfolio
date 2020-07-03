@@ -44,6 +44,7 @@ export default class Resume extends Component {
                             new Array(numPages),
                             (el, index) => (
                                 <Page
+                                    scale= {1.6} 
                                     key={`page_${index + 1}`}
                                     pageNumber={index + 1}
                                 />

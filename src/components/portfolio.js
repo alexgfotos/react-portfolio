@@ -7,6 +7,7 @@ import GridListTileBar from '@material-ui/core/GridListTileBar';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import Typography from '@material-ui/core/typography'
 import tileData from './tileData';
 
 const useStyles = makeStyles((theme) => ({
@@ -18,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
   },
   gridList: {
-    width: "100%",
+    width: "90%",
     height: 950,
   },
   icon: {
@@ -32,18 +33,18 @@ export default function Portfolio() {
 
   return (
     <div className={classes.root}>
-      <GridList cols={3}  cellHeight={300} className={classes.gridList}>
+      <GridList cols={3}  cellHeight={250} className={classes.gridList}>
         <GridListTile key="Subheader" cols={3} style={{ height: 'auto' }}>
-          <ListSubheader component="div">PORTFOLIO</ListSubheader>
+          <Typography variant= "h3" align= "center" component="div">PORTFOLIO</Typography>
         </GridListTile >
         {tileData.map((tile) => (
           <GridListTile style={{ marginBottom: "18px" }} key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
+            <img src={tile.img} alt={tile.title}/>
             <GridListTileBar
-              title={tile.title}
-              subtitle={<span>by: {tile.description}</span>}
+              title= {<a href={tile.link}>{tile.title}</a>}
+              subtitle={<span>{tile.description}</span>}
               actionIcon={
-                <Link href={tile.link}>
+                <Link href={tile.github}>
                 <IconButton  aria-label={`info about ${tile.title}`} className={classes.icon}>
                   <GitHubIcon />
                 </IconButton>

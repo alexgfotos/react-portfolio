@@ -8,30 +8,30 @@
     {
         "img": "/assets/images/borgerhut.png",
         "title": "Borger Hut",
-        "description": "Online Burger Maker & Eater using Node Express & Handlebars.",
-        "link":"https://github.com/alexgfotos/burger",
-        "github":"https://rocky-thicket-38681.herokuapp.com/"
+        "description": "Online burger maker & eater using Node Express & Handlebars.",
+        "link":"https://rocky-thicket-38681.herokuapp.com/",
+        "github":"https://github.com/alexgfotos/burger"
     },
     {
         "img": "/assets/images/squaddle.png",
-        "title": "MadGifz",
-        "description": "A modern take on a classic game.",
-        "link":"https://alexgfotos.github.io/MadGifz/",
-        "github":"https://github.com/alexgfotos/MadGifz"
+        "title": "Squaddle",
+        "description": "Online multiplayer game scheduler.",
+        "link":"http://www.squaddle.in/",
+        "github":"https://github.com/npgockel/project-lan"
+    },
+    {
+        "img": "/assets/images/minaweather.jpg",
+        "title": "Mina Weather",
+        "description": "A simple weather app.",
+        "link":"https://alexgfotos.github.io/weather_dashboard/",
+        "github":"https://github.com/alexgfotos/weather_dashboard"
     },
     {
         "img": "/assets/images/planner.png",
-        "title": "MadGifz",
-        "description": "A modern take on a classic game.",
-        "link":"https://alexgfotos.github.io/MadGifz/",
-        "github":"https://github.com/alexgfotos/MadGifz"
-    },
-    {
-        "img": "/assets/images/minaweather.png",
-        "title": "MadGifz",
-        "description": "A modern take on a classic game.",
-        "link":"https://alexgfotos.github.io/MadGifz/",
-        "github":"https://github.com/alexgfotos/MadGifz"
+        "title": "Workday Planner",
+        "description": "A time sensitive planner.",
+        "link":"https://alexgfotos.github.io/WorkDayScheduler/",
+        "github":"https://github.com/alexgfotos/WorkDayScheduler"
     },
     {
         "img": "/assets/images/madgifz.png",

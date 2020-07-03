@@ -27,7 +27,7 @@ export const Jumbotron = () => {
         <div className={classes.root}>
             <Paper align="center" component="span" m={1} style={{ backgroundImage: 'url("assets/images/hero2.jpg")', backgroundSize: "cover" }}>
             <div className="darken-overlay"> 
-                <Typography style={{ color: "white" }} variant="h1"  gutterBottom>
+                <Typography className="jumboText" style={{ color: "white" }} variant="h1"  gutterBottom>
                     
                         ALEJANDRO GONZALEZ
                 

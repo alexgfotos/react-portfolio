@@ -38,12 +38,16 @@
 }
 
 
-body {
+#root {
   /* background-color: rgba(255,255,255); */
   background-image: url("/public/assets/images/bg1.jpg");
   background-size: cover;
 }
 
+
+@media screen and (max-width: 600px){.darken-overlay .MuiTypography-h1 {
+  font-size: 2rem
+}}
 
 .darken-overlay{
   width: 100%;
