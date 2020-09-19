@@ -7,7 +7,7 @@ import GridListTileBar from '@material-ui/core/GridListTileBar';
 // import ListSubheader from '@material-ui/core/ListSubheader';
 import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import Typography from '@material-ui/core/typography'
+import Typography from '@material-ui/core/Typography'
 import tileData from './tileData';
 
 const useStyles = makeStyles((theme) => ({
