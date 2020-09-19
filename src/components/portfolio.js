@@ -25,6 +25,13 @@ const useStyles = makeStyles((theme) => ({
   icon: {
     color: 'rgba(255, 255, 255, 0.54)',
   },
+  link: {
+    color: "white"
+  },
+  tileBar: {
+    backgroundColor: "rgba(0, 0, 0, 0.8)",
+    verticalAlign: "top" 
+  }
 }));
 
 
@@ -33,24 +40,25 @@ export default function Portfolio() {
 
   return (
     <div className={classes.root}>
-      <GridList cols={3}  cellHeight={250} className={classes.gridList}>
+      <GridList cols={3} cellHeight={250} className={classes.gridList}>
         <GridListTile key="Subheader" cols={3} style={{ height: 'auto' }}>
-          <Typography variant= "h3" align= "center" component="div">PORTFOLIO</Typography>
+          <Typography variant="h1" align="center" component="div">PORTFOLIO</Typography>
         </GridListTile >
         {tileData.map((tile) => (
           <GridListTile style={{ marginBottom: "18px" }} key={tile.img}>
-            <img src={tile.img} alt={tile.title}/>
+            <img src={tile.img} alt={tile.title} />
             <GridListTileBar
-              title= {<a href={tile.link}>{tile.title}</a>}
-              subtitle={<span>{tile.description}</span>}
+              className={classes.tileBar}
+              title={<Typography color="primary" variant="h4"><a className={classes.link} href={tile.link}>{tile.title}</a></Typography>}
+              subtitle={<Typography variant="subtitle2"><span>{tile.description}</span></Typography>}
               actionIcon={
                 <Link href={tile.github}>
-                <IconButton  aria-label={`info about ${tile.title}`} className={classes.icon}>
-                  <GitHubIcon />
-                </IconButton>
+                  <IconButton aria-label={`info about ${tile.title}`} className={classes.icon}>
+                    <GitHubIcon />
+                  </IconButton>
                 </Link>
-             }
-             
+              }
+
             />
           </GridListTile>
         ))}

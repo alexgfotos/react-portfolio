@@ -1,9 +1,31 @@
-   [ {
-        "img": "/assets/images/madgifz.png",
+   [ 
+    {
+        "img": "/assets/images/xeric.png",
+        "title": "Xeric Files",
+        "description": "A site for a Xericphile to store their Xeric Files and share plant care.",
+        "link":"https://xeric.herokuapp.com",
+        "github":"https://github.com/alexgfotos/xericfiles"
+    },
+    {
+        "img": "/assets/images/squaddle2.png",
+        "title": "Squaddle",
+        "description": "Online multiplayer game scheduler.",
+        "link":"http://www.squaddle.in/",
+        "github":"https://github.com/npgockel/project-lan"
+    },
+       {
+        "img": "/assets/images/MadGifz.gif",
         "title": "MadGifz",
         "description": "A modern take on a classic game.",
         "link":"https://alexgfotos.github.io/MadGifz/",
         "github":"https://github.com/alexgfotos/MadGifz"
+    },
+    {
+        "img": "/assets/images/budget.png",
+        "title": "Expense Tracker",
+        "description": "A REACT based budgeting tool.",
+        "link":" https://zen-cori-68321d.netlify.app/",
+        "github":" https://github.com/alexgfotos/expense_tracker"
     },
     {
         "img": "/assets/images/borgerhut.png",
@@ -13,14 +35,14 @@
         "github":"https://github.com/alexgfotos/burger"
     },
     {
-        "img": "/assets/images/squaddle.png",
-        "title": "Squaddle",
-        "description": "Online multiplayer game scheduler.",
-        "link":"http://www.squaddle.in/",
-        "github":"https://github.com/npgockel/project-lan"
+        "img": "/assets/images/guglebuks.png",
+        "title": "Gügul Büks",
+        "description": "Search and save books using the Google Books API.",
+        "link":"https://alexgfotos.github.io/weather_dashboard/",
+        "github":"https://github.com/alexgfotos/weather_dashboard"
     },
     {
-        "img": "/assets/images/minaweather.jpg",
+        "img": "/assets/images/minaweather.png",
         "title": "Mina Weather",
         "description": "A simple weather app.",
         "link":"https://alexgfotos.github.io/weather_dashboard/",
@@ -32,38 +54,6 @@
         "description": "A time sensitive planner.",
         "link":"https://alexgfotos.github.io/WorkDayScheduler/",
         "github":"https://github.com/alexgfotos/WorkDayScheduler"
-    },
-    {
-        "img": "/assets/images/madgifz.png",
-        "title": "MadGifz",
-        "description": "A modern take on a classic game.",
-        "link":"https://alexgfotos.github.io/MadGifz/",
-        "github":"https://github.com/alexgfotos/MadGifz"
-    },
-    {
-        "img": "/assets/images/madgifz.png",
-        "title": "MadGifz",
-        "description": "A modern take on a classic game.",
-        "link":"https://alexgfotos.github.io/MadGifz/",
-        "github":"https://github.com/alexgfotos/MadGifz"
-    },
-    {
-        "img": "/assets/images/madgifz.png",
-        "title": "MadGifz",
-        "description": "A modern take on a classic game.",
-        "link":"https://alexgfotos.github.io/MadGifz/",
-        "github":"https://github.com/alexgfotos/MadGifz"
-    },
-    {
-        "img": "/assets/images/madgifz.png",
-        "title": "MadGifz",
-        "description": "A modern take on a classic game.",
-        "link":"https://alexgfotos.github.io/MadGifz/",
-        "github":"https://github.com/alexgfotos/MadGifz"
     }
-
-
-
-
 ]
     
