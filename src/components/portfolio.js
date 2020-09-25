@@ -9,6 +9,7 @@ import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Typography from '@material-ui/core/Typography'
 import tileData from './tileData';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -35,13 +36,19 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
+
+
 export default function Portfolio() {
   const classes = useStyles();
+  const mediaQuery = useMediaQuery('(min-width:600px)');
 
   return (
     <div className={classes.root}>
-      <GridList cols={3} cellHeight={250} className={classes.gridList}>
-        <GridListTile key="Subheader" cols={3} style={{ height: 'auto' }}>
+      <GridList cols={mediaQuery ? 3 : 1} cellHeight={250} className={classes.gridList}>
+        <GridListTile 
+        key="Subheader" 
+        cols={ 3 } 
+        style={{ height: 'auto' }}>
           <Typography variant="h1" align="center" component="div">PORTFOLIO</Typography>
         </GridListTile >
         {tileData.map((tile) => (
