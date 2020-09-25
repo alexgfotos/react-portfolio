@@ -50,6 +50,7 @@ export default function Portfolio() {
         cols={ 3 } 
         style={{ height: 'auto' }}>
           <Typography variant="h4" align="center" component="div">PORTFOLIO</Typography>
+          <Typography variant="subtitle2" align="center" component="div">These projects were created using Javascript, JSX, Jquery, Bootstrap, React, Material-UI, MySQL, Mongo, Node, & HTML</Typography>
         </GridListTile >
         {tileData.map((tile) => (
           <GridListTile style={{ marginBottom: "18px" }} key={tile.img}>
