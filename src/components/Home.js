@@ -19,16 +19,12 @@ export const Home = () => {
                 
                 <p><strong>Hello!</strong> My name is Alejandro Gonzalez and welcome to my portfolio site. I currently work as a
         Photography Instructor, Career & Technical Education department chair, Web Editor, and Teacher Technology
-        Liaison at Tucson High Magnet School. I am also a freelance photographer, cacti aficionado, and soon to be a
-        dad! I love teaching photography and working with students, it is satisfying to help them develop through the
-        art of photography.
+        Liaison at Tucson High Magnet School. I am also a freelance photographer, cacti aficionado, and a new
+        dad!</p> 
+        <p>
         I was born in Mexico but I have lived in Tucson, AZ since I was five years old. I graduated from Amphitheater
         High School, got my BFAs in Education & Photography from the University of Arizona in 2009 and then returned for
-        my Masters in Educational Leadership in 2017. I am (with much difficulty) learning how to code in this intensive
-        bootcamp so I can hopefully transition to a career where I can wear less hats and better provide for my family.
-        I met my wife while teaching (she was the art teacher) and we married in 2013. This June we will be expecting
-        our first child, a boy. I am also passionate about photography, mountain biking, and the cultivation of rare
-        cacti and succulents from around the world!</p>
+        my Masters in Educational Leadership in 2017. I recently completed a coding bootcamp and have found a passion in development. </p>
         </Container>
     )
 }

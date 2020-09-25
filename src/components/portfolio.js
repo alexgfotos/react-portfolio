@@ -49,7 +49,7 @@ export default function Portfolio() {
             <img src={tile.img} alt={tile.title} />
             <GridListTileBar
               className={classes.tileBar}
-              title={<Typography color="primary" variant="h4"><a className={classes.link} href={tile.link}>{tile.title}</a></Typography>}
+              title={<Typography color="primary" variant="h4"><a className={classes.link} href={tile.link} target="_blank" rel="noopener noreferrer">{tile.title}</a></Typography>}
               subtitle={<Typography variant="subtitle2"><span>{tile.description}</span></Typography>}
               actionIcon={
                 <Link href={tile.github}>

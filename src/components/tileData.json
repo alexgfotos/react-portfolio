@@ -38,8 +38,8 @@
         "img": "/assets/images/guglebuks.png",
         "title": "Gügul Büks",
         "description": "Search and save books using the Google Books API.",
-        "link":"https://github.com/alexgfotos/googleBookSearch",
-        "github":"https://gugulbuks.herokuapp.com/"
+        "link":"https://gugulbuks.herokuapp.com/",
+        "github":"https://github.com/alexgfotos/googleBookSearch"
     },
     {
         "img": "/assets/images/minaweather.png",
@@ -57,7 +57,7 @@
     },
     {
         "img": "/assets/images/cactusupdate.png",
-        "title": "Cactus Updtae",
+        "title": "Cactus Update",
         "description": "My Xeric Adventures on IG.",
         "link":"https://instagram.com/cactusupdate",
         "github":"https://github.com/alexgfotos/"
