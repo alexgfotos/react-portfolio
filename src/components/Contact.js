@@ -1,14 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
-import Link from '@material-ui/core/Link';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
-// import ListSubheader from '@material-ui/core/ListSubheader';
-import IconButton from '@material-ui/core/IconButton';
-import GitHubIcon from '@material-ui/icons/GitHub';
 import Typography from '@material-ui/core/Typography'
-import tileData from './tileData';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const useStyles = makeStyles((theme) => ({
@@ -55,21 +50,21 @@ export default function Contact() {
           <img src='/assets/images/contactGH.png' alt="github profile" />
           <GridListTileBar
             className={classes.tileBar}
-            title={<Typography color="primary" variant="subtitle"><a className={classes.link} href='https://github.com/alexgfotos' target="_blank" rel="noopener noreferrer">Github</a></Typography>} />
+            title={<Typography color="primary" variant="subtitle1"><a className={classes.link} href='https://github.com/alexgfotos' target="_blank" rel="noopener noreferrer">Github</a></Typography>} />
         </GridListTile>
 
-        <GridListTile style={{ marginBottom: "18px" }} key="gh">
+        <GridListTile style={{ marginBottom: "18px" }} key="li">
           <img src='/assets/images/contactLI2.png' alt="linkedin profile" />
           <GridListTileBar
             className={classes.tileBar}
-            title={<Typography color="primary" variant="subtitle"><a className={classes.link} href='https://www.linkedin.com/in/alejandroggonzalez/' target="_blank" rel="noopener noreferrer">LinkedIn</a></Typography>} />
+            title={<Typography color="primary" variant="subtitle1"><a className={classes.link} href='https://www.linkedin.com/in/alejandroggonzalez/' target="_blank" rel="noopener noreferrer">LinkedIn</a></Typography>} />
         </GridListTile>
 
-        <GridListTile style={{ marginBottom: "18px" }} key="gh">
+        <GridListTile style={{ marginBottom: "18px" }} key="ig">
           <img src='/assets/images/contactIG.png' alt="instagram profile" />
           <GridListTileBar
             className={classes.tileBar}
-            title={<Typography color="primary" variant="subtitle"><a className={classes.link} href='https://instagram.com/cactusupdate' target="_blank" rel="noopener noreferrer">Instagram</a></Typography>} />
+            title={<Typography color="primary" variant="subtitle1"><a className={classes.link} href='https://instagram.com/cactusupdate' target="_blank" rel="noopener noreferrer">Instagram</a></Typography>} />
         </GridListTile>
 
       </GridList>
