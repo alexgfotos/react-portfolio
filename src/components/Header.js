@@ -55,7 +55,7 @@ function Header() {
                             onClose={handleClose}>
                             <Button onClick={handleClose} color="inherit"><Link href="/">Home</Link></Button>
                             <Button onClick={handleClose} color="inherit"><Link href="/portfolio">Portfolio</Link></Button>
-                            <Button onClick={handleClose} color="inherit"><Link href="https://docs.google.com/document/d/1K3CLJ7Rc0sMdjYfPGGINsvG-iiFqx0IlWKZJibtoLL0/edit?usp=sharing">Resume</Link></Button>
+                            <Button onClick={handleClose} color="inherit"><Link href="https://drive.google.com/file/d/1BxJMRdZKApIGM9_xY7Ur5MnDtOvjPiHh/view?usp=sharing">Resume</Link></Button>
                             <Button onClick={handleClose} color="inherit"><Link href="/contact">Contact Me</Link></Button>
                         </Menu>
 
