@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   },
   gridList: {
     width: "90%",
-    height: 950,
+    height: "auto"
   },
   icon: {
     color: 'rgba(255, 255, 255, 0.54)',
@@ -30,8 +30,8 @@ const useStyles = makeStyles((theme) => ({
     color: "white"
   },
   tileBar: {
-    backgroundColor: "rgba(0, 0, 0, 0.8)",
-    verticalAlign: "top" 
+    backgroundColor: "rgba(0, 0, 0, 0.8)", 
+    height: "33%"
   }
 }));
 
@@ -49,7 +49,7 @@ export default function Portfolio() {
         key="Subheader" 
         cols={ 3 } 
         style={{ height: 'auto' }}>
-          <Typography variant="h1" align="center" component="div">PORTFOLIO</Typography>
+          <Typography variant="h4" align="center" component="div">PORTFOLIO</Typography>
         </GridListTile >
         {tileData.map((tile) => (
           <GridListTile style={{ marginBottom: "18px" }} key={tile.img}>
@@ -59,7 +59,7 @@ export default function Portfolio() {
               title={<Typography color="primary" variant="h4"><a className={classes.link} href={tile.link} target="_blank" rel="noopener noreferrer">{tile.title}</a></Typography>}
               subtitle={<Typography variant="subtitle2"><span>{tile.description}</span></Typography>}
               actionIcon={
-                <Link href={tile.github}>
+                <Link href={tile.github} target="_blank" rel="noopener noreferrer">
                   <IconButton aria-label={`info about ${tile.title}`} className={classes.icon}>
                     <GitHubIcon />
                   </IconButton>
