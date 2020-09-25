@@ -38,8 +38,8 @@
         "img": "/assets/images/guglebuks.png",
         "title": "Gügul Büks",
         "description": "Search and save books using the Google Books API.",
-        "link":"https://alexgfotos.github.io/weather_dashboard/",
-        "github":"https://github.com/alexgfotos/weather_dashboard"
+        "link":"https://github.com/alexgfotos/googleBookSearch",
+        "github":"https://gugulbuks.herokuapp.com/"
     },
     {
         "img": "/assets/images/minaweather.png",
@@ -54,6 +54,13 @@
         "description": "A time sensitive planner.",
         "link":"https://alexgfotos.github.io/WorkDayScheduler/",
         "github":"https://github.com/alexgfotos/WorkDayScheduler"
+    },
+    {
+        "img": "/assets/images/cactusupdate.png",
+        "title": "Cactus Updtae",
+        "description": "My Xeric Adventures on IG.",
+        "link":"https://instagram.com/cactusupdate",
+        "github":"https://github.com/alexgfotos/"
     }
 ]
     
